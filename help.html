@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help</title>
+	<link rel="stylesheet" type="text/css" href="help.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="header">
+        <div class="header-logo">
+         <img style="margin-left: 60px; margin-top: 5px" src="imglog1.png">
+          
+         <button class="dropbtn"><i class="fa fa-home"><a href="project.html" style="color: white;">&nbsp;&nbsp;Home</a></i></button>
+         
+         <button class="qui"><a href="https://www.wfp.org/overview" style="color: white;">About</a></button>
+         <button class="ga"><a href="help.html" style="color: white;">Help</a></button>
+         <button class="pa" href="" style="color: white;">Suggestions</button>
+         <input id="man" type="text" name="" placeholder="Search" style="width: 100px; margin-top: -50px; color: white;">
+        </div>
+    </div>
+    <marquee direction="right" >
+      <span class="blink"><i>Contact Us:</i><i class="fa fa-phone"></i>&nbsp;&nbsp;+250789686898,+250782809797,+250785500543,+250789478740&nbsp;&nbsp;<i class="fa fa-envelope">&nbsp;&nbsp;www.wfp.org</i></span>
+    </marquee><br><br>
+    <h2><strong>There are more problems of refugees related to food distribution.</strong></h2>
+    <h4>If so, fill the form to ask your questions</h4>
+    	<center>
+        <form style="border: 2px solid rgb(20, 50, 150);" action="http://localhost/my%20first%20proj/pas.php" method="POST">
+            <br><br>
+    		<label style="text-align: center;"><b>FirstName</b></label><br>
+    		<input type="text" name="FirstName" placeholder="FirstName" required=""><br>
+    		<label><b>LastName</b></label><br>
+    		<input type="text" name="LastName" maxlength="16" placeholder="LastName" required=""><br>
+    		<label><b>Refugee Card Id Number</b></label><br>
+    		<input type="number" name="Refugee-Card-Id-Number" placeholder="2.........." required=""><br>
+    		<label><b>Household Number</b></label><br>
+    		<input type="number" name="Household-Number" placeholder="" required=""><br>
+    		<label><b>Household Representative</b></label><br>
+    		<input type="text" name="Household-Representative" required=""><br><br>
+            <label><b>Your problem</b></label><br>
+            <textarea name="problem" value="problem"></textarea><br><br>
+            <button style="width: 100px" value="Submit">Submit</button><br><br>
+    	</form></center>
+</body>
+</html>

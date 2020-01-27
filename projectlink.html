@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<link rel="stylesheet" type="text/css" href="projectlink.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<body>
+  <div class="header">
+        <div class="header-logo">
+         <img style="margin-left: 60px; margin-top: -40px" src="imglog1.png">
+          <div class="drpdwn">
+         <button class="dropbtn"><i class="fa fa-home"><a href="project.html" style="color: white;">&nbsp;&nbsp;Home</a></i></button>
+          <div class="content">
+            <a href="https://www.google.com/search?rlz=1C1CHBD_enRW871RW871&sxsrf=ACYBGNQMkQyC6NDVgrQ7j5qbzSq8V64Wew:1575629703240&ei=hzPqXeWlDvaEhbIPwKi28AQ&q=job+openings+wfp+in+rwanda&oq=job+openings+wfp+in+rw&gs_l=psy-ab.1.0.33i22i29i30.23349.40879..43308...0.0..0.689.9336.2-1j15j3j5......0....1..gws-wiz.......35i39j0i333j0i131i273j0j0i131j0i67j0i10i273j0i10j0i20i263j0i22i30j0i22i10i30._CpcBfzn2rs&ibp=htl;jobs&sa=X&ved=2ahUKEwil_aPT8KDmAhXZPsAKHdShCB8QiYsCKAF6BAgHEAs#htivrt=jobs&htidocid=khka2tJMkpcF2PrmAAAAAA%3D%3D&fpstate=tldetail">Job vacancies</a>
+            <a href="projectlink.html">Get food</a>
+            <a href="">Get money</a>
+          </div>
+         </div>
+         <button class="qui"><a href="https://www.wfp.org/overview" style="color: white;">About</a></button>
+         <button class="ga"><a href="help.html" style="color: white;">Help</a></button>
+         <button class="pa" href="" style="color: white;">Suggestions</button>
+         <input id="man" type="text" name="" placeholder="Search" style="width: 50px; margin-top: -50px;position: absolute;">
+        </div>
+    </div>
+	<div class="di">
+
+<h2>Feeding and Money distribution system</h2>
+<p>This system helps food and money distribution in all camps in Rwanda.</p>
+
+<p>
+  <label>Family Size</label>
+  <input id="inputPounds" type="number" placeholder="Size" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Beans: <span id="outputKilograms"></span>Kgs</p>
+<p>Maize: <span id="outputKilogram"></span>Kgs</p>
+<p>Oil: <span id="outputKilogra"></span>Litre(s)</p>
+<p>Salt: <span id="outputKilogr"></span>Kgs</p>
+<p>Rice: <span id="outputKilog"></span>Kgs</p>
+<p>Money: <span id="outputKilo"></span>Rwf</p>
+</div>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum*7;
+  document.getElementById("outputKilogram").innerHTML=valNum*20;
+  document.getElementById("outputKilogra").innerHTML=valNum*1;
+  document.getElementById("outputKilogr").innerHTML=valNum*1.7;
+  document.getElementById("outputKilog").innerHTML=valNum*12;
+  document.getElementById("outputKilo").innerHTML=valNum*7500;
+}
+</script>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card" style="width:300px; height: 420px;">
+      <img class="card-img-top" src="sud1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Mahama camp</strong></h4>
+          <p class="card-text">Where markets and financial sector are functioning, cash transfers can be an effective path to achieve food security and nutrition outcomes.</p>
+          <button type="button" class="btn btn-danger" style="background: darkred;">MORE ABOUT&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></button>
+
+       </div>
+    </div>
+  </div>
+
+
+  
+  <div class="col-md-4">
+    <div class="card" style="width:300px; height: 420px; ">
+      <img class="card-img-top" src="kara.png" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Gihembe Camp</strong></h4>
+          <p class="card-text">Where markets and financial sector are functioning, cash transfers can be an effective path to achieve food security and nutrition outcomes.</p>
+          <button type="button" class="btn btn-danger" style="background: darkred;">MORE ABOUT&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></button>
+       </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width:300px ; height: 420px; padding-right: 90px">
+      <img class="card-img-top" src="pic.jpg" alt="Card image" style="width: 100%">
+       <div class="card-body">
+         <h4 class="card-title"><strong>Nyabiheke camp</strong></h4>
+         <p class="card-text">Where markets and financial sector are functioning, cash transfers can be an effective path to achieve food security and nutrition outcomes.</p>
+         <button type="button" class="btn btn-danger" style="background: darkred;">MORE ABOUT&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></button>
+       </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

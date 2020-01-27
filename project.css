@@ -1,0 +1,118 @@
+#h3{
+	text-align: center;
+	padding-top: 100px;
+	text-align: right;
+}
+.header{
+	background: white;
+	width: 100%;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	
+	z-index: 20;
+}
+.cont{
+	float: right;
+}
+button{
+	background: white;
+	border: 2px solid white;
+	
+
+}
+button:hover{
+	background-color: #3787bd;
+	height: 40px;
+}
+i:hover{
+	background-color: #3787bd;
+	height: 30px;
+}
+.dropbtn{
+	margin-left: 400px;
+	border-radius: 5px;
+	background: white;
+	border: 2px solid white;
+	margin-top: -50px;
+}
+.qui{
+	margin-left: 40px;
+	border-radius: 5px;
+	margin-top: -50px;
+}
+.ga{
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+.pa{
+	margin-left: 40px;
+	border-radius: 5px;
+	margin-top: -50px;
+}
+.header-logo input{
+	margin-left: 40px;
+	border: 1px solid #ccc;
+}
+.main{
+	background-image: url("sud1.jpg");
+	background-size: cover;
+	
+	height: 650px;
+	padding-top: 300px;
+	
+	
+
+}
+.col-md-4{
+	width:300px; 
+	height: 600px;
+}
+#id{
+	width:300px; 
+	height: 600px;
+}
+#a{
+	width: 66%;
+	height:400px;
+}
+.col-md-4 h4{
+	text-align: center;
+}
+
+#man{
+	margin-left: 50px;
+	margin-top: -12px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999999;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {background-color: white; text-decoration-style: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+a{
+	text-decoration: none;
+	color: white;
+}
